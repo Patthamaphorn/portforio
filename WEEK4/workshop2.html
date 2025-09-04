@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>การใช้งาน div และ spa</title>
+</head>
+<body>
+ <form action="" style="border: 1px solid; width: 40%; padding: 20px;">
+    <fieldset>
+        <legend>ข้อมูลส่วนตัว</legend>
+    <div style="margin: 10px;">
+        <label for="name">ชื่อ-นามสกุล: *</label>
+        <input type="text" name="fname" required>
+    </div>
+    <div style="margin: 10px;">
+        <label for="number">เลขบัตรประชาชน(13หลัก):</label>
+        <input type="text" name="lname">
+    </div>
+    <div style="margin: 10px;">
+        <label for="birthday">วันเกิด:</label>
+        <input type="date" name="birthday">
+    </div>
+    <div>
+        <label for="age">อายุ:</label>
+        <input type="number" name="age" min="10" max="120" step="1">
+    </div>
+    <div style="margin: 10px;">
+        <label for="sex">เพศ:</label>
+        <input type="radio" name="sex" value="ชาย">ชาย
+        <input type="radio" name="sex" value="หญิง">หญิง
+        <input type="radio" name="sex" value="ไม่ระบุ">ไม่ระบุ
+    </div>
+    </fieldset>
+    <fieldset>
+        <legend>ข้อมูลติดต่อ</legend>
+    <div style="margin: 5px;">
+        <label for="email">อีเมล: *</label>
+        <input type="email" name="email" required>  
+    </div>
+    <div style="margin: 10px;">
+        <label for="phone">เบอร์โทร:</label>
+        <input type="tel" name="phone">  
+    </div>
+    <div style="margin: 10px;">
+        <label for="Web Site">เว็บไซต์ส่วนตัว:</label>
+        <input typ="Web Site" name="เว็บไซต์ส่วนตัว"> 
+    </div>
+</fieldset>
+<fieldset>
+    <legend>ทักษะและความสามารถ</legend>
+    <div>
+        <label for="intetsres">ทักษะที่ถนัด:</label>
+        <input type="checkbox" name="intetsres" value="Coding">Coding
+        <input type="checkbox" name="intetsres" value="Desing">Desing
+        <input type="checkbox" name="intetsres" value="Marketing">Marketing
+    </div>
+    <div>
+        <label for="province">เครื่องมือที่ใช้บ่อย</label>
+        <select name="province" >
+           <option value="">-- กรุณาเลือกเครื่องมือ --</option>
+           <option value="">Photoshop</option>
+           <option value="">Figma</option>
+           <option value="">Visual Studio Code</option>
+           <option value="">Google Sheets</option>
+        </select>
+    </div>
+    <div style="margin: 10px;">
+        <label for="color">สีประจำตัว</label>
+        <input type="color" name="color">
+    </div>
+    <div style="margin: 10px;">
+        <label for="color">ระดับความชำนาญ</label>
+        <input type="range" name="color">
+    </div>
+
+</fieldset>
+<Fieldset>
+    <legend>เอกสารแนบ</legend>
+    <div style="margin: 10px;">
+        <label for="profile">รูปถ่ายโปรไฟล์:</label>
+        <input type="file" name="profil">
+    </div>
+    <div style="margin: 10px;">
+        <label for="pdf">แนบประวัติย่อ(PDF):</label>
+        <input type="file" name="profil">
+    </div>
+</Fieldset>
+<fieldset>
+    <legend>ข้อเสนอแนะเพิ่มเติม</legend>
+    <div style="margin: 10px;">
+        <legend>อยากให้โครงการนี้มีอะไรบ้าง?</legend>
+        <label for="address"></label>
+        <textarea name="address"rows="4" cols="30" placeholder="เสนอความคิดเห็นที่นี่..."></textarea>  
+    </div>
+</fieldset>
+    <div style="margin: 4px;">
+        <input type="submit" value="ส่งใบสมัคร">
+        <input type="reset" value="ล้างข้อมูล">
+    </div>

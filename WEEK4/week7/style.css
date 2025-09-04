@@ -1,0 +1,35 @@
+* {
+    font-family: "Prompt", sans-serif; 
+    background-color: rgb(247, 161, 232);
+}
+h1{
+    color: #d81616;
+    text-align: center;
+    font-weight: 800;
+    font-size: 60px;
+}
+.name {
+    font-size: 240px;
+}
+.Relative {
+font-size: 100%;
+}
+.box {
+    border: 5px solid #925a11;
+    background-color: #d8fbff;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.box2 {
+    border: 5px solid #470404;
+    background-color: #f3d2f0;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    height: 50px;
+}
+
+
+
+

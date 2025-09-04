@@ -1,0 +1,65 @@
+div {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.box-1 {
+background-color: rgb(227, 104, 243);
+border: solid 4px rgb(212, 0, 255);
+border-radius: 10px;
+}
+.box-2 {
+background-color: rgb(253, 147, 221);
+border: dotted 4px rgb(255, 0, 221);
+border-top-left-radius:  20px;
+border-bottom-right-radius: 100px;
+}
+.box-3 {
+background-color: rgb(190, 247, 255);
+border: dashed 4px rgb(16, 189, 241);
+border-top-right-radius: 50px;
+}
+.box-4 {
+background-color: rgb(126, 253, 183);
+border: solid 4px rgb(10, 163, 61);
+border-radius: 15px;
+}
+.box-5 {
+    background-color: rgb(244, 250, 162);
+    border-top-style: solid;
+    border-left-style: double;
+    border-right-style: dashed;
+border-bottom-style: dotted;
+}
+.box-6{
+width: 800px;
+height: 800px;
+border: solid 5px chartreuse;
+background-color: rgb(53, 8, 8);
+
+/*border-top-right-radius: 50px;
+border-top-left-radius: 100px;
+border-bottom-right-radius: 200px;
+border-bottom-left-radius: 300px;*/
+
+/*border-radius: 50px 100px 200px 300px ;*/
+
+/*-border-radius: 200px 500px;*/
+
+border-radius: 50px 200px 500px ;
+}
+.box-7 {
+width: 300px;
+height: 300px;
+border: solid 5px rgb(236, 252, 23);
+background-color: rgb(7, 1, 14);
+border-radius: 10% 50% 100%;
+
+
+
+}
+
+
+
+
+
